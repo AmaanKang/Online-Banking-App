@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+<!--Author:Amandeep Kaur
+This file is the index file of the banking app from where the user can login or register.
+-->
+
+
+<html>
+
+<head>
+    <title>Fortune Banking App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bankingApp.css">
+</head>
+
+<body>
+    <h1>Fortune Banking App</h1>
+    <form action="php/signIn.php" method="POST">
+        <span class="label">User ID:</span>
+        <input type="text" name="userID" class="textBox" required /></br>
+        <span class="label">User Password:</span>
+        <input type="password" name="pass" class="textBox" required /></br>
+        <input type="submit" value="Sign in" class="submitBtn" />
+    </form>
+    <p class="label">If you don't have an online account, Create one!</p><a class="linkClass"
+        href="register.html">Register for an account</a>
+
+</body>
+
+</html>

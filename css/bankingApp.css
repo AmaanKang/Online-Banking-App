@@ -1,0 +1,86 @@
+/**
+ * Author:Amandeep Kaur
+ * This css file gives styling effects to the whole app.
+ */
+body{
+    background-color:lightcyan;
+}
+h1{
+    background-color: maroon;
+    color:white;
+    text-align: center;
+    padding:2%;
+    margin:2%;
+    border-radius: 10px;
+}
+a.linkClass{
+    font-size: 1.4em;
+    color:blue;
+    text-decoration: none;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    padding:1%;
+    margin:0.5%;
+    margin-left: 10%;
+}
+.label{
+    font-size: 1.4em;
+    margin: 2%;
+    margin-left:10%;
+}
+.desc{
+    margin:2%;
+}
+.textBox{
+    height:20px;
+    width:20%;
+    margin: 2%;
+    margin-left:5%;
+}
+.submitBtn{
+    font-size: 1.4em;
+    color:white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding:1%;
+    margin:2%;
+    margin-left:10%;
+    cursor: pointer;
+}
+
+a.link{
+    color:red;
+    font-size: 1.2em;
+    margin-left:30%;
+}
+.response, #transferred, #message,#updated{
+    font-size: 1.4em;
+    margin-left: 10%;
+    color:rgb(218, 21, 86);
+    font-style: italic;
+}
+#welcome{
+    text-align: center;
+    background-color: grey;
+}
+.section{
+    background-color: rgb(54, 143, 145);
+    border-radius: 10px;
+    padding:1%;
+    margin:2%;
+    color:whitesmoke;
+    font-size: 1.4em;
+}
+.imgBlock img{
+    width:10%;
+    height:10%;
+    float:left;
+    margin:2%;
+}
+#imgTd{
+    width:100%;
+    position:relative;
+}
+

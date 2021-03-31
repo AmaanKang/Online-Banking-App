@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--Author:Amandeep Kaur
+This file is the html page from where the user can register for an account.
+-->
+<html>
+
+<head>
+    <title>Fortune Banking App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bankingApp.css">
+</head>
+
+<body>
+    <h1>Fortune Banking App</h1>
+    <form action="php/register.php" method="POST">
+        <span class="label">User ID: </span>
+        <input type="text" name="userID" class="textBox" required /><span class="descr">minimum of 8 characters, maximum
+            of 20 characters</br></span>
+        <span class="label">Bank account number issued by bank:</span>
+        <input type="text" name="accNum" placeholder="245678329" class="textBox" required /></br>
+        <span class="label">User Password: </span>
+        <input type="password" name="pass" class="textBox" required /> <span class="descr"><span class="descr"> >= 8 and
+                <= 20 characters, lower case, upper case, numbers and special characters (!, $, %)</br> </span> <span
+                    class="label">Confirm User Password: </span>
+            <input type="password" name="confirmPass" class="textBox" required /></br>
+            <input type="submit" value="Register" class="submitBtn" />
+    </form>
+    <p class="label">Already have an account</p><a class="linkClass" href="index.html">Log in</a>
+</body>
+
+</html>
